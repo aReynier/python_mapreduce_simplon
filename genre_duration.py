@@ -41,6 +41,7 @@ def reduce_fn(data):
     print(data)
 
 
-genre_duration()
+if __name__ == "__main__":
+    genre_duration()
 
 

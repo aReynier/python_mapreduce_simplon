@@ -39,4 +39,7 @@ def reduce_fn(data):
     for value in data:
         data[value] = sum(data[value])
     print(data)
-film_count()
+
+
+if __name__ == "__main__":
+    film_count()
